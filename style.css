@@ -97,227 +97,33 @@
   background-repeat: no-repeat;
 }
 
-.rectangulo4{
-  width: 700px;
-  justify-content: center; /* Centra horizontalmente el contenido */
-}
-.rectangulo5 {
+.rectangulo4 {
   width: 100%;
-  height: 500px;
+  padding: 20px;
   display: flex;
-  align-items: center; /* Centra verticalmente el contenido */
-  justify-content: center; /* Centra horizontalmente el contenido */
-  position: relative
-}
-.rectangulo6 {
-  width: 100%;
-  height:60px;
-  display: flex;
-  align-items: center; /* Centra verticalmente el contenido */
-  justify-content: center; /* Centra horizontalmente el contenido */
-}
-.rectangulo7{
-  width: 100%;
-  height:50px;
-  display: flex;
-
-  justify-content: center; /* Centra horizontalmente el contenido */
-}
-.rectangulo8{
-  width: 100%;
-  height:auto;
-  display: flex;
-
-  justify-content: center; /* Centra horizontalmente el contenido */
-}
-.rectangulo9{
-  width: 100%;
-  height:auto;
-  display: flex;
-
-  justify-content: center; /* Centra horizontalmente el contenido */
-}
-.rectangulo10 {
-  width: 100%;
-  height:auto;
-
-  display: flex;
-  align-items: center; /* Centra verticalmente el contenido */
-  justify-content: center; /* Centra horizontalmente el contenido */
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.rectangulo11 {
-  width: 100%;
-  height:280;
-
-  display: flex;
- /* Centra verticalmente el contenido */
-  justify-content: center; /* Centra horizontalmente el contenido */
+.square {
+  width: 300px;
+  height: 300px;
+  background-color:white;
+  margin: 10px;
+  position: relative;
 }
-.rectangulo12 {
+
+.square img {
   width: 100%;
   height: auto;
- 
-  display: flex;
-  align-items: center; /* Centra verticalmente el contenido */
-  justify-content: center; /* Centra horizontalmente el contenido */
-  position: relative
+  border: 5px solid white;
 }
-.rectangulo13 {
-  width: 100%;
-  height: 300px;
- 
-  display: flex;
-  align-items: center; /* Centra verticalmente el contenido */
-  justify-content: center; /* Centra horizontalmente el contenido */
-  position: relative
-}
-.rectangulo14 {
-  width: 100%;
-  height:60px;
-
-  display: flex;
-  align-items: center; /* Centra verticalmente el contenido */
-  justify-content: center; /* Centra horizontalmente el contenido */
-}
-.custom-button {
-  --background: #498B87; /* Cambia el color de fondo a rojo */
-  --color: white; /* Cambia el color del texto a blanco */
-  --box-shadow: none; /* Quítale la sombra al botón */
-  /* También puedes usar las siguientes propiedades para asegurarte de que la sombra esté desactivada */
-  --ion-box-shadow: none;
-  box-shadow: none;
-}
-
-.lista-sin-lineas ion-item {
-  --inner-border-width: 0; /* Quítale las líneas a los elementos ion-item */
-  --border-width: 0; /* Quítale las líneas a los elementos ion-item */
-}
-
-.barra-dos{
-
-  width: 50px;
-  height: 10px;
-  background-color: #76B8B4;
+.square .img-title {
   position: absolute;
-  top: 0; /* Posición en la parte superior del rectángulo */
+  top: 0;
   left: 0;
-  right: 0; /* Centra horizontalmente el contenido */
-}
-.boton-con-imagen {
-  background-image: url('./../../assets/imagenes/logo-sin-fondo.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta correcta de tu imagen */
-  background-repeat: no-repeat;
-  text-align: center; /* Centra el texto dentro del botón */
-  color: white; /* Cambia el color del texto si es necesario */
-}
-.imagen-centrada {
-  display: flex;
-  justify-content: center; /* Centra horizontalmente */
-
-  width: 200px; /* Ajusta el ancho de la imagen al 100% del contenedor (ion-col) */
-  /* Mantiene la relación de aspecto original */
-}
-
-
-
-
-.titulo {
-  color:#498b97;
-  font-size: 40px;
-  margin: 0;
-}
-/* Elimina los bordes del ion-card */
-ion-card {
-  border: none;
-  box-shadow: none;
-}
-
-
-/* Estilo para el párrafo p */
-
-/* Estilo para el fondo */
-.container {
-  --background: #efeded;
-}
-
-/* Estilo para centrar el párrafo */
-.centered-p {
-  text-align: center;
-}
-.menu-desplegable {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
- 
-  border: 1px solid #EFEEEE;
-  z-index: 1;
-  color: #498B87;
-}
-
-ion-col:hover .menu-desplegable {
-  display: block;
-}
-.lista-sin-lineas ion-item {
-  height: auto ;
-  --inner-border-width: 0 ;
-  --border-width: 0 ;
-  font-size: 14px ;
-  padding: 2px 2px ;
-}
-.menu-item {
-  font-size: 12px; /* Tamaño de fuente más pequeño según tus preferencias */
-}
-.rectangulo15 {
-  display: flex;
-  justify-content: center; /* Centra horizontalmente el contenido */
-  background-image: url('./../../assets/imagenes/fondoweno.jpg');
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  height: 600px;
   width: 100%;
-  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
-
-}
-
-.rectangulo16 {
-  display: flex;
-  justify-content: center; /* Centra horizontalmente el contenido */
-   background-size: cover;
-  background-position: center;
-  text-align: center;
-  height: 600px;
-  width: 100%;
-
-}
-
-.rectangulo17 {
-  width: 50%;
-  height: 550px;
- 
-  display: flex;
-  position: absolute;
-  right: 0;
-  z-index: 2; /* Esto coloca el rectángulo17 sobre el rectángulo16 */
-
-}
-
-.rectangulo18 {
-  width: 100%;
-  height: 50px;
- 
-  display: flex;
-  justify-content: center; /* Centra horizontalmente el contenido */
-  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
-}
-
-.barra-tres {
-  width: 100px;
-  height: 10px;
-  background-color: #76B8B4;
-  left: 0;
-  position: absolute;
-  /* No es necesario "position: absolute;" */
 }
