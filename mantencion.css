@@ -1,0 +1,102 @@
+.fondo {
+    background-color: white;
+  }
+  
+  .sin-borde{
+    border: none;
+  }
+  
+  .bordes-derecha{
+    padding-right: 100px;
+  }
+  .bordes-izquierda{
+    padding-left: 100px;
+  }
+  
+  .bordes-izquierda-derecha{
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .fa-instagram {
+    font-size: 50px;
+  }
+
+  .rectangulo {
+    background-color: #74BFBB;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+/* Ajustes para el contenedor principal */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; /* Agregado para separar los elementos */
+}
+
+
+/* Ajustes para el contenido izquierdo y título */
+.contenido-izquierda {
+    max-width: 600px; /* Ajusta según tus preferencias */
+    margin-right: 50px; /* Ajusta el margen derecho según tus necesidades */
+    height: 700%; /* Ajusta la altura al 100% para que el contenedor ocupe el espacio disponible verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #696b6b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ajustes para el título */
+.contenido-izquierda h1 {
+    font-size: 2em; /* Ajusta según tus preferencias */
+    margin-bottom: 40px; /* Ajusta según tus necesidades */
+    color: #74BFBB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Ajustes para la imagen rectangular */
+
+
+/* Añade estas reglas al final de tu archivo CSS o donde prefieras */
+.boton-verde {
+    margin-top: 100px;
+    border: 2px solid #74BFBB;
+    color: white;
+    background-color: #74BFBB;
+    padding: 10px 20px;
+ 
+    text-decoration: none;
+    display: block; /* Cambiado a 'block' para ocupar toda la anchura disponible */
+    font-size: 16px;
+    max-width: 200px;
+    
+}
+.rectangulo2 {
+  background-color: #EFEEEE;
+  position: fixed;
+  top: 35px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
